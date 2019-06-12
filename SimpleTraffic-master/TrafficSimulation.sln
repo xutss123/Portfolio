@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficSimulation", "TrafficSimulation\TrafficSimulation.csproj", "{E7F8A056-9AFB-4EB5-9259-403617D1696F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSimulation", "TestSimulation\TestSimulation.csproj", "{51BC6FCE-A45D-4696-8F8D-DAD00577365F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F8A056-9AFB-4EB5-9259-403617D1696F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F8A056-9AFB-4EB5-9259-403617D1696F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F8A056-9AFB-4EB5-9259-403617D1696F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F8A056-9AFB-4EB5-9259-403617D1696F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BC6FCE-A45D-4696-8F8D-DAD00577365F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BC6FCE-A45D-4696-8F8D-DAD00577365F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BC6FCE-A45D-4696-8F8D-DAD00577365F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BC6FCE-A45D-4696-8F8D-DAD00577365F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D39A9A4-4022-4F2C-8590-442301CF5100}
+	EndGlobalSection
+EndGlobal
