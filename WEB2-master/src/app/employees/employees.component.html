@@ -1,0 +1,48 @@
+<div>
+  <h1 class="h1">Employees</h1>
+  <input #search type="text" ng-model="search" placeholder="Search for an employee"/>
+  <button class="buttons" (click)="findEmployee(search.value)" >search</button>
+  <div *ngIf="foundEmployee"><label>Found employee details</label><br>
+  {{foundEmployee.id}}
+  {{foundEmployee.name}}
+  </div>
+  <div>
+  <ul>
+    <li *ngFor="let Employee of employees" class="list" (click)="onSelect(Employee)">
+      {{Employee.id}}
+      {{Employee.first_name}}
+      {{Employee.last_name}}
+    </li>
+  </ul>
+</div>
+<div class="create">
+  <label>First name:
+    <input #firstname placeholder="frist name" />
+  </label>
+  <label>Last name:
+    <input #lastname placeholder="last name" />
+  </label>
+  <label>Department:
+    <select #dchoice class="select" name="dchoice">
+        <option value="" disabled selected>Choose your option</option>
+        <option *ngFor="let Department of departments" value="{{Department.id}}">{{Department.id}}</option>
+      </select>
+</label>
+  <button class="buttons" (click)="Add(firstname.value, lastname.value, dchoice.value)">create</button>
+</div>
+<div>
+    <label>ID:
+    <input #id placeholder="id" />
+  </label>
+  <button class="buttons" (click)="deleteEmployee(id.value)">delete</button>
+</div>
+<div *ngIf="selectedEmployee">
+  <label>
+    Details of employee<br>
+  </label>
+      ID:{{selectedEmployee.id}}<br>
+      First name:{{selectedEmployee.first_name}}<input [(ngModel)]="selectedEmployee.first_name" placeholder="name"><br>
+      Lase name:{{selectedEmployee.last_name}}<br>
+      Belongs to department:{{selectedEmployee.department_id}}<br>
+      <button (click)="save()">save</button>
+</div>

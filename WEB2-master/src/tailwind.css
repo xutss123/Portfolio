@@ -1,0 +1,13 @@
+@tailwind preflight;
+@tailwind components;
+
+.navigation-link {
+	@apply .no-underline .px-4 .py-4 .text-blue-lightest .text-xl .uppercase;
+	transition: all .05s linear;
+}
+
+.navigation-link:hover {
+	@apply .text-blue-lighter;
+}
+
+@tailwind utilities;

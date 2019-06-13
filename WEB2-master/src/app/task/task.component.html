@@ -1,0 +1,41 @@
+<div class="task bg-grey-lightest rounded my-2 px-2">
+  <div class="flex py-4 items-center">
+      <input type="checkbox" name="finished" [checked]="task.finished"/>
+      <span [ngClass]="{'line-through': task.finished}" class="px-2 flex-grow">{{task.name}}</span>
+      <button (click)="open(content)" class="rounded text-grey-darkest bg-grey-light hover:bg-grey px-2 py-1 mr-2">View</button>
+      <button (click)="deleteTask()" class="rounded text-red bg-red-lightest hover:bg-red-lighter px-2 py-1">Delete</button>
+  </div>
+</div>
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Task</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Key</th>
+          <th scope="col">Value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Task</td>
+          <td><input type="text" [(ngModel)]="task.name" (change)="changeStatus()" class="px-4 py-2 bg-grey-light mb-2 rounded" /></td>
+        </tr>
+        <tr>
+          <td>Belongs to employees</td>
+          <td>{{getEmployees()}}</td>
+        </tr>
+        <tr>
+          <td>Department</td>
+          <td>{{getDepartment()}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</ng-template>

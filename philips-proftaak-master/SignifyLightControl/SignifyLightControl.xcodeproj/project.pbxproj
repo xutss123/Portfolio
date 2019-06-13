@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53633D3C21ED559F000D14A6 /* PresetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53633D3B21ED559E000D14A6 /* PresetController.swift */; };
+		53E6E84D21EBB17300C3C0F0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53E6E84C21EBB17200C3C0F0 /* GoogleService-Info.plist */; };
+		53E7D57921E8BB6600F1DEB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E7D57821E8BB6600F1DEB1 /* ViewController.swift */; };
+		53E7D57B21E8BBA800F1DEB1 /* cageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E7D57A21E8BBA800F1DEB1 /* cageClass.swift */; };
+		53E7D57D21E8BBB100F1DEB1 /* CageCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E7D57C21E8BBB100F1DEB1 /* CageCellCollectionViewCell.swift */; };
+		53E7D57F21E8C7DF00F1DEB1 /* addCage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 53E7D57E21E8C7DE00F1DEB1 /* addCage.jpeg */; };
+		53E7D58121E8D95B00F1DEB1 /* AddCageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E7D58021E8D95B00F1DEB1 /* AddCageController.swift */; };
+		5FEA00FB886D39B86973F876 /* Pods_SignifyLightControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AAB62439170A134A686492 /* Pods_SignifyLightControl.framework */; };
+		8353FAEF21B94BFD00BE07C8 /* LampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353FAEE21B94BFD00BE07C8 /* LampViewController.swift */; };
+		83AABB9221C3BFF10054B015 /* onLamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AABB9121C3BFF00054B015 /* onLamp.png */; };
+		83AABB9421C3BFF70054B015 /* offLamp.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AABB9321C3BFF70054B015 /* offLamp.png */; };
+		83EE8B5821B91ECD0006864C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EE8B5721B91ECD0006864C /* AppDelegate.swift */; };
+		83EE8B5D21B91ECD0006864C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EE8B5B21B91ECD0006864C /* Main.storyboard */; };
+		83EE8B5F21B91ED00006864C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EE8B5E21B91ED00006864C /* Assets.xcassets */; };
+		83EE8B6221B91ED00006864C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EE8B6021B91ED00006864C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28B3C9D9C1023DDE8198FB1C /* Pods-SignifyLightControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignifyLightControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SignifyLightControl/Pods-SignifyLightControl.release.xcconfig"; sourceTree = "<group>"; };
+		328EEC0F310DD80B6E8996A7 /* Pods-SignifyLightControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignifyLightControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SignifyLightControl/Pods-SignifyLightControl.debug.xcconfig"; sourceTree = "<group>"; };
+		53633D3B21ED559E000D14A6 /* PresetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresetController.swift; path = "../../../../Acua/philips-proftaak/rechard/smios phil/PresetController.swift"; sourceTree = "<group>"; };
+		53E6E84C21EBB17200C3C0F0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		53E7D57821E8BB6600F1DEB1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../collectionView/collectionView/ViewController.swift; sourceTree = "<group>"; };
+		53E7D57A21E8BBA800F1DEB1 /* cageClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cageClass.swift; path = ../../../../collectionView/collectionView/cageClass.swift; sourceTree = "<group>"; };
+		53E7D57C21E8BBB100F1DEB1 /* CageCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CageCellCollectionViewCell.swift; path = ../../../../collectionView/collectionView/CageCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		53E7D57E21E8C7DE00F1DEB1 /* addCage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = addCage.jpeg; path = ../../../../addCage.jpeg; sourceTree = "<group>"; };
+		53E7D58021E8D95B00F1DEB1 /* AddCageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCageController.swift; sourceTree = "<group>"; };
+		8353FAEE21B94BFD00BE07C8 /* LampViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampViewController.swift; sourceTree = "<group>"; };
+		83AABB9121C3BFF00054B015 /* onLamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onLamp.png; path = ../../../../onLamp.png; sourceTree = "<group>"; };
+		83AABB9321C3BFF70054B015 /* offLamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = offLamp.png; path = ../../../../offLamp.png; sourceTree = "<group>"; };
+		83EE8B5421B91ECD0006864C /* SignifyLightControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignifyLightControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83EE8B5721B91ECD0006864C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83EE8B5C21B91ECD0006864C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83EE8B5E21B91ED00006864C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83EE8B6121B91ED00006864C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83EE8B6321B91ED00006864C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AAB62439170A134A686492 /* Pods_SignifyLightControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignifyLightControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83EE8B5121B91ECD0006864C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEA00FB886D39B86973F876 /* Pods_SignifyLightControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0044A37F1B0D040E34F08C9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				328EEC0F310DD80B6E8996A7 /* Pods-SignifyLightControl.debug.xcconfig */,
+				28B3C9D9C1023DDE8198FB1C /* Pods-SignifyLightControl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3567384A682D9674F3EA6746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89AAB62439170A134A686492 /* Pods_SignifyLightControl.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83EE8B4B21B91ECD0006864C = {
+			isa = PBXGroup;
+			children = (
+				83EE8B5621B91ECD0006864C /* SignifyLightControl */,
+				83EE8B5521B91ECD0006864C /* Products */,
+				0044A37F1B0D040E34F08C9F /* Pods */,
+				3567384A682D9674F3EA6746 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83EE8B5521B91ECD0006864C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83EE8B5421B91ECD0006864C /* SignifyLightControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83EE8B5621B91ECD0006864C /* SignifyLightControl */ = {
+			isa = PBXGroup;
+			children = (
+				83EE8B5721B91ECD0006864C /* AppDelegate.swift */,
+				53E7D57821E8BB6600F1DEB1 /* ViewController.swift */,
+				53633D3B21ED559E000D14A6 /* PresetController.swift */,
+				8353FAEE21B94BFD00BE07C8 /* LampViewController.swift */,
+				53E7D57C21E8BBB100F1DEB1 /* CageCellCollectionViewCell.swift */,
+				53E7D57A21E8BBA800F1DEB1 /* cageClass.swift */,
+				83EE8B5B21B91ECD0006864C /* Main.storyboard */,
+				53E7D58021E8D95B00F1DEB1 /* AddCageController.swift */,
+				83EE8B5E21B91ED00006864C /* Assets.xcassets */,
+				83AABB9321C3BFF70054B015 /* offLamp.png */,
+				53E7D57E21E8C7DE00F1DEB1 /* addCage.jpeg */,
+				83AABB9121C3BFF00054B015 /* onLamp.png */,
+				83EE8B6021B91ED00006864C /* LaunchScreen.storyboard */,
+				83EE8B6321B91ED00006864C /* Info.plist */,
+				53E6E84C21EBB17200C3C0F0 /* GoogleService-Info.plist */,
+			);
+			path = SignifyLightControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83EE8B5321B91ECD0006864C /* SignifyLightControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EE8B6621B91ED00006864C /* Build configuration list for PBXNativeTarget "SignifyLightControl" */;
+			buildPhases = (
+				00A445A4FC0657AAA62361F1 /* [CP] Check Pods Manifest.lock */,
+				83EE8B5021B91ECD0006864C /* Sources */,
+				83EE8B5121B91ECD0006864C /* Frameworks */,
+				83EE8B5221B91ECD0006864C /* Resources */,
+				41681DAAA337433D95A21993 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignifyLightControl;
+			productName = SignifyLightControl;
+			productReference = 83EE8B5421B91ECD0006864C /* SignifyLightControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83EE8B4C21B91ECD0006864C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = issd;
+				TargetAttributes = {
+					83EE8B5321B91ECD0006864C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 83EE8B4F21B91ECD0006864C /* Build configuration list for PBXProject "SignifyLightControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83EE8B4B21B91ECD0006864C;
+			productRefGroup = 83EE8B5521B91ECD0006864C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83EE8B5321B91ECD0006864C /* SignifyLightControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83EE8B5221B91ECD0006864C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83EE8B6221B91ED00006864C /* LaunchScreen.storyboard in Resources */,
+				83EE8B5F21B91ED00006864C /* Assets.xcassets in Resources */,
+				83AABB9221C3BFF10054B015 /* onLamp.png in Resources */,
+				53E7D57F21E8C7DF00F1DEB1 /* addCage.jpeg in Resources */,
+				83EE8B5D21B91ECD0006864C /* Main.storyboard in Resources */,
+				83AABB9421C3BFF70054B015 /* offLamp.png in Resources */,
+				53E6E84D21EBB17300C3C0F0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A445A4FC0657AAA62361F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignifyLightControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41681DAAA337433D95A21993 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SignifyLightControl/Pods-SignifyLightControl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCircularProgress/KDCircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SignifyLightControl/Pods-SignifyLightControl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83EE8B5021B91ECD0006864C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E7D57D21E8BBB100F1DEB1 /* CageCellCollectionViewCell.swift in Sources */,
+				53E7D57B21E8BBA800F1DEB1 /* cageClass.swift in Sources */,
+				53E7D57921E8BB6600F1DEB1 /* ViewController.swift in Sources */,
+				8353FAEF21B94BFD00BE07C8 /* LampViewController.swift in Sources */,
+				83EE8B5821B91ECD0006864C /* AppDelegate.swift in Sources */,
+				53E7D58121E8D95B00F1DEB1 /* AddCageController.swift in Sources */,
+				53633D3C21ED559F000D14A6 /* PresetController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83EE8B5B21B91ECD0006864C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EE8B5C21B91ECD0006864C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83EE8B6021B91ED00006864C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83EE8B6121B91ED00006864C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83EE8B6421B91ED00006864C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83EE8B6521B91ED00006864C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83EE8B6721B91ED00006864C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328EEC0F310DD80B6E8996A7 /* Pods-SignifyLightControl.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SignifyLightControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fontys.SignifyLightControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83EE8B6821B91ED00006864C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B3C9D9C1023DDE8198FB1C /* Pods-SignifyLightControl.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SignifyLightControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fontys.SignifyLightControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83EE8B4F21B91ECD0006864C /* Build configuration list for PBXProject "SignifyLightControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EE8B6421B91ED00006864C /* Debug */,
+				83EE8B6521B91ED00006864C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EE8B6621B91ED00006864C /* Build configuration list for PBXNativeTarget "SignifyLightControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EE8B6721B91ED00006864C /* Debug */,
+				83EE8B6821B91ED00006864C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83EE8B4C21B91ECD0006864C /* Project object */;
+}

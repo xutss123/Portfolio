@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: eb4414bc8bf02a2329f09c5888b71aca
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CubeDirt: {fileID: 3219598150984880016, guid: e2f8f0a805f1fce52bcc5fa8c287f9b3,
+      type: 3}
+  - CubeWall: {fileID: 8261798413268059813, guid: 6be8df6459c77ddfb9b0a85d52e00adc,
+      type: 3}
+  - CubeWallBreakable: {fileID: 6227920616600519892, guid: a232278c89798baae8181b081fc031e8,
+      type: 3}
+  - Doors: {fileID: 4757436714284198439, guid: 44cf79d248f76082195841d7ad56924a, type: 3}
+  - Button: {fileID: 9146688220059887423, guid: caeaa1f41c1bd2ad69504440a03567f4,
+      type: 3}
+  - Key: {fileID: 788371120963533797, guid: c3be52269c80202359d66856ccf5d84a, type: 3}
+  - Guess: {fileID: 521990410478295253, guid: 822b3dcecd60e90e880c20c168238b2f, type: 3}
+  - Guess9: {fileID: 2072585543506358386, guid: afc2df432a12fca0199367be083897d1,
+      type: 3}
+  - Guess92: {fileID: 2772642092795933516, guid: c1737a5d49c9a5376be5819590c266f7,
+      type: 3}
+  - Put: {fileID: 216777318978433735, guid: 970cb3a5f8fffec2b8e6f972d3574fe5, type: 3}
+  - winCanvas: {fileID: 6011457970004403431, guid: f4e5745d661c9467e960b9c1a103d1a0,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

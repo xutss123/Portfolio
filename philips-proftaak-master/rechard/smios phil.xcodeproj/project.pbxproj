@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836F758921E7573700CF362F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F758821E7573700CF362F /* AppDelegate.swift */; };
+		836F758B21E7573700CF362F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F758A21E7573700CF362F /* ViewController.swift */; };
+		836F758E21E7573700CF362F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836F758C21E7573700CF362F /* Main.storyboard */; };
+		836F759021E7573800CF362F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836F758F21E7573800CF362F /* Assets.xcassets */; };
+		836F759321E7573800CF362F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836F759121E7573800CF362F /* LaunchScreen.storyboard */; };
+		836F759E21E7573800CF362F /* smios_philTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F759D21E7573800CF362F /* smios_philTests.swift */; };
+		836F75A921E7573800CF362F /* smios_philUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836F75A821E7573800CF362F /* smios_philUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		836F759A21E7573800CF362F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836F757D21E7573700CF362F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836F758421E7573700CF362F;
+			remoteInfo = "smios phil";
+		};
+		836F75A521E7573800CF362F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836F757D21E7573700CF362F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836F758421E7573700CF362F;
+			remoteInfo = "smios phil";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		836F758521E7573700CF362F /* smios phil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smios phil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836F758821E7573700CF362F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		836F758A21E7573700CF362F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		836F758D21E7573700CF362F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		836F758F21E7573800CF362F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		836F759221E7573800CF362F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		836F759421E7573800CF362F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836F759921E7573800CF362F /* smios philTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "smios philTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836F759D21E7573800CF362F /* smios_philTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smios_philTests.swift; sourceTree = "<group>"; };
+		836F759F21E7573800CF362F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836F75A421E7573800CF362F /* smios philUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "smios philUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		836F75A821E7573800CF362F /* smios_philUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smios_philUITests.swift; sourceTree = "<group>"; };
+		836F75AA21E7573800CF362F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836F758221E7573700CF362F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836F759621E7573800CF362F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836F75A121E7573800CF362F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836F757C21E7573700CF362F = {
+			isa = PBXGroup;
+			children = (
+				836F758721E7573700CF362F /* smios phil */,
+				836F759C21E7573800CF362F /* smios philTests */,
+				836F75A721E7573800CF362F /* smios philUITests */,
+				836F758621E7573700CF362F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		836F758621E7573700CF362F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836F758521E7573700CF362F /* smios phil.app */,
+				836F759921E7573800CF362F /* smios philTests.xctest */,
+				836F75A421E7573800CF362F /* smios philUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836F758721E7573700CF362F /* smios phil */ = {
+			isa = PBXGroup;
+			children = (
+				836F758821E7573700CF362F /* AppDelegate.swift */,
+				836F758A21E7573700CF362F /* ViewController.swift */,
+				836F758C21E7573700CF362F /* Main.storyboard */,
+				836F758F21E7573800CF362F /* Assets.xcassets */,
+				836F759121E7573800CF362F /* LaunchScreen.storyboard */,
+				836F759421E7573800CF362F /* Info.plist */,
+			);
+			path = "smios phil";
+			sourceTree = "<group>";
+		};
+		836F759C21E7573800CF362F /* smios philTests */ = {
+			isa = PBXGroup;
+			children = (
+				836F759D21E7573800CF362F /* smios_philTests.swift */,
+				836F759F21E7573800CF362F /* Info.plist */,
+			);
+			path = "smios philTests";
+			sourceTree = "<group>";
+		};
+		836F75A721E7573800CF362F /* smios philUITests */ = {
+			isa = PBXGroup;
+			children = (
+				836F75A821E7573800CF362F /* smios_philUITests.swift */,
+				836F75AA21E7573800CF362F /* Info.plist */,
+			);
+			path = "smios philUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836F758421E7573700CF362F /* smios phil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836F75AD21E7573800CF362F /* Build configuration list for PBXNativeTarget "smios phil" */;
+			buildPhases = (
+				836F758121E7573700CF362F /* Sources */,
+				836F758221E7573700CF362F /* Frameworks */,
+				836F758321E7573700CF362F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "smios phil";
+			productName = "smios phil";
+			productReference = 836F758521E7573700CF362F /* smios phil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		836F759821E7573800CF362F /* smios philTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836F75B021E7573800CF362F /* Build configuration list for PBXNativeTarget "smios philTests" */;
+			buildPhases = (
+				836F759521E7573800CF362F /* Sources */,
+				836F759621E7573800CF362F /* Frameworks */,
+				836F759721E7573800CF362F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836F759B21E7573800CF362F /* PBXTargetDependency */,
+			);
+			name = "smios philTests";
+			productName = "smios philTests";
+			productReference = 836F759921E7573800CF362F /* smios philTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		836F75A321E7573800CF362F /* smios philUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836F75B321E7573800CF362F /* Build configuration list for PBXNativeTarget "smios philUITests" */;
+			buildPhases = (
+				836F75A021E7573800CF362F /* Sources */,
+				836F75A121E7573800CF362F /* Frameworks */,
+				836F75A221E7573800CF362F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836F75A621E7573800CF362F /* PBXTargetDependency */,
+			);
+			name = "smios philUITests";
+			productName = "smios philUITests";
+			productReference = 836F75A421E7573800CF362F /* smios philUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836F757D21E7573700CF362F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ISSD;
+				TargetAttributes = {
+					836F758421E7573700CF362F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					836F759821E7573800CF362F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 836F758421E7573700CF362F;
+					};
+					836F75A321E7573800CF362F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 836F758421E7573700CF362F;
+					};
+				};
+			};
+			buildConfigurationList = 836F758021E7573700CF362F /* Build configuration list for PBXProject "smios phil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 836F757C21E7573700CF362F;
+			productRefGroup = 836F758621E7573700CF362F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836F758421E7573700CF362F /* smios phil */,
+				836F759821E7573800CF362F /* smios philTests */,
+				836F75A321E7573800CF362F /* smios philUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836F758321E7573700CF362F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836F759321E7573800CF362F /* LaunchScreen.storyboard in Resources */,
+				836F759021E7573800CF362F /* Assets.xcassets in Resources */,
+				836F758E21E7573700CF362F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836F759721E7573800CF362F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836F75A221E7573800CF362F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836F758121E7573700CF362F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836F758B21E7573700CF362F /* ViewController.swift in Sources */,
+				836F758921E7573700CF362F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836F759521E7573800CF362F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836F759E21E7573800CF362F /* smios_philTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836F75A021E7573800CF362F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836F75A921E7573800CF362F /* smios_philUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836F759B21E7573800CF362F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836F758421E7573700CF362F /* smios phil */;
+			targetProxy = 836F759A21E7573800CF362F /* PBXContainerItemProxy */;
+		};
+		836F75A621E7573800CF362F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836F758421E7573700CF362F /* smios phil */;
+			targetProxy = 836F75A521E7573800CF362F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		836F758C21E7573700CF362F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836F758D21E7573700CF362F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		836F759121E7573800CF362F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				836F759221E7573800CF362F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		836F75AB21E7573800CF362F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		836F75AC21E7573800CF362F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836F75AE21E7573800CF362F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 234YFRDMU5;
+				INFOPLIST_FILE = "smios phil/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "issd.smios-phil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		836F75AF21E7573800CF362F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 234YFRDMU5;
+				INFOPLIST_FILE = "smios phil/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "issd.smios-phil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		836F75B121E7573800CF362F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "smios philTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "issd.smios-philTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smios phil.app/smios phil";
+			};
+			name = Debug;
+		};
+		836F75B221E7573800CF362F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "smios philTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "issd.smios-philTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smios phil.app/smios phil";
+			};
+			name = Release;
+		};
+		836F75B421E7573800CF362F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "smios philUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "issd.smios-philUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "smios phil";
+			};
+			name = Debug;
+		};
+		836F75B521E7573800CF362F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "smios philUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "issd.smios-philUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "smios phil";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836F758021E7573700CF362F /* Build configuration list for PBXProject "smios phil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836F75AB21E7573800CF362F /* Debug */,
+				836F75AC21E7573800CF362F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836F75AD21E7573800CF362F /* Build configuration list for PBXNativeTarget "smios phil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836F75AE21E7573800CF362F /* Debug */,
+				836F75AF21E7573800CF362F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836F75B021E7573800CF362F /* Build configuration list for PBXNativeTarget "smios philTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836F75B121E7573800CF362F /* Debug */,
+				836F75B221E7573800CF362F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836F75B321E7573800CF362F /* Build configuration list for PBXNativeTarget "smios philUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836F75B421E7573800CF362F /* Debug */,
+				836F75B521E7573800CF362F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 836F757D21E7573700CF362F /* Project object */;
+}

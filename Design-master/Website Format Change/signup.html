@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-g">
+    <meta name="viewport" content="width-device-width">
+    <title>Sign up | We Care</title>
+    <link rel="stylesheet" type="text/css" href="cssStylesTest.css">
+    <script src="Javascript/Validation.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">We Care</span> Animal Shelter</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Rescues</a>
+                        <ul class="dropdown-content">
+                            <a href="dogs.html">Dogs</a>
+                            <a href="cats.html">Cats</a>
+                            <a href="smallanimals.html">Small Animals</a>
+                        </ul>
+                    </li>
+                    <li><a href="donations.html">Donations</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">About Us</a>
+                        <ul class="dropdown-content">
+                            <a href="overview.html">Overview</a>
+                            <a href="contact.html">Contact Us</a>
+                            <a href="staff.html">Staff</a>
+                            <a href="sponsors.html">Sponsors</a>
+                        </ul>
+                    </li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                    <li class="current"><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>Sign Up or Log in</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to our newsletter</h1>
+            <form name=".myForm" method="post" action="" onsubmit="return validateForm()">
+                <input type="email" name=".email" placeholder="Please enter your email..">
+                <button type="submit" class="button">Subscribe</button>
+            </form>
+
+        </div>
+    </section>
+    <section id="main">
+        <div class="FormContainer FormContainerSignUp">
+            <form name=".SignUpForm" method="post" action="php/Login/signup.php" onsubmit="return valAllDonation()">
+                <span>
+                    <p>Name</p><input type="text" class="Textboxes" onclick="return normalState(this.id)" onblur="return valFirst(this.form.name,this.id, 0)" id=".FirstName" name="first" placeholder="First Name"/>
+                </span>
+            <span>
+                    <input type="text" class="Textboxes" onclick="return normalState(this.id)" onblur="return valLast(this.form.name,this.id, 0)" id=".LastName" name="last" placeholder="Last Name"/>
+                    <p class="emptyFields"></p>
+                </span>
+            
+            <span>
+                    <p>Email Address</p><input type="email" onclick="return emailNormalState(this.id)" onblur="return valEmail(this.form.name,this.id,1)" id=".Email" name="email" class="Textboxes TextboxesEmail" placeholder="Please enter an email." />
+                    <p class="emptyFields"></p>
+                </span>      
+            <span>
+                    <p>Username</p><input type="text" id=".Username" onclick="return normalState(this.id)" onblur="return valFirst(this.form.name,this.id,2)" class="Textboxes" name="username" placeholder="Pick a username.." />
+                    <p class="emptyFields"></p>
+                </span>
+                <span>
+                    <p>Passsword</p><input type="password" onclick="return emailNormalState(this.id)" onblur="return valEmail(this.form.name,this.id,3)" id=".pwd" name="pwd" class="Textboxes TextboxesEmail" placeholder="Please enter a password." />
+                    <p class="emptyFields"></p>
+                </span>            
+            <button type="submit" name="submit" class="button buttonPositionSignUp">Sign up</button>
+        </form>
+        </div>
+        <form name="login" method="post" class="FormContainer FormContainerLogin" action="php/Login/login.php">
+            <input type="text" class="Textboxes TextboxLogin" name="uid" placeholder="Username/Email">
+            <input type="password" class="Textboxes TextboxLogin" name="pwd" placeholder="Password">
+            <button name="submit" type="submit" class="button buttonPositionSignUp">Log in</button>
+        </form>
+    </section>
+    <footer>
+        <p>We Care Animal Shelter, Copyright &copy; 2018</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<div>
+    <input #searchEmp type="text" ng-model="search" placeholder="Search for an employee/department"/>
+    <button class="buttons" (click)="searchEmployee(searchEmp.value)" >search</button>
+    <div *ngIf="foundEmployee"><label>Found employee details</label><br>
+    {{foundEmployee.id}}
+    {{foundEmployee.name}}
+    </div><br>
+  <div *ngIf="foundDepartment"><label>Found department details</label><br>
+  {{foundDepartment.id}}
+  {{foundDepartment.name}}
+  </div>
+    <div>
+        <ul>
+          <li *ngFor="let Employee of employees" class="list" (click)="onSelectEmp(Employee)">
+            {{Employee.id}}
+            {{Employee.name}} 
+            {{Employee.position}}
+            {{Employee.dateofbirth}}
+          </li>
+          <li *ngFor="let department of departments" (click)="onSelectDep(department)">
+            {{department.id}}
+            {{department.name}}
+            </li>
+          <li *ngFor="let task of tasks" (click)="onSelectTask(task)">
+            {{task.id}}
+            {{task.description}}
+          </li>
+        </ul>
+      </div>
+      <div *ngIf="selectedEmployee||selectedDepartment||selectedTask">
+      <div *ngIf="selectedEmployee">
+          {{selectedEmployee.id}}
+          {{selectedEmployee.name}} 
+          {{getName(selectedEmployee.belongsToDepartment)}}
+      </div>
+      <div *ngIf="selectedDepartment">
+        {{selectedDepartment.id}}
+        {{selectedDepartment.name}}
+         <li *ngFor="let employee of getdepEmployees(selectedDepartment.id)">{{employee.name}}</li>
+      </div>
+      <div *ngIf="selectedTask">
+        {{selectedTask.id}}
+        {{selectedTask.description}}
+      </div>
+      </div>
+</div>

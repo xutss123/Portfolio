@@ -1,0 +1,50 @@
+.list{
+    padding: 0;
+    width: 150px;
+    
+}
+#names{font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;}
+    #names td, #names th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+   
+    #names th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: rgb(76, 130, 175);
+        color: white;}
+        #names tr {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: rgb(122, 76, 175);
+            color: white;
+            border-collapse: collapse;
+            width: 100%;
+            
+        }
+
+.update{
+    border:2px solid #456879;
+	border-radius:8px;
+	height: 22px;
+    width: 230px;
+    color: cadetblue;
+}
+.buttons{
+    background-color:lightsalmon;
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 12px;
+    margin-left: 15px;
+}
+.create{
+    padding: 15px;
+}
+.h1{
+    margin-bottom: 15px;
+}

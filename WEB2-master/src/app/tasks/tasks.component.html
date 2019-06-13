@@ -1,0 +1,40 @@
+
+<div class="px-4 py-4">
+
+    <div class="flex justify-center mb-8">
+      <div class="flex flex-col px-8 py-8 bg-white shadow-md rounded w-full container">
+        <h2 class="text-black mb-4">Search task</h2>
+        <input [(ngModel)]="search" class="px-4 py-4 bg-grey-light mb-2 rounded" placeholder="Type task description" />
+        <div *ngFor="let task of searchTask()">
+          <app-task [task]="task"></app-task>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="flex justify-center mb-6">
+      <div class="flex flex-col px-8 py-8 bg-white shadow-md rounded w-full container">
+        <h2 class="text-black mb-4">Add new task</h2>
+        <input #description class="px-4 py-4 bg-grey-light mb-2 rounded" placeholder="Enter your task" />
+        <select #employee class="px-4 py-4 bg-grey-light mb-2 rounded">
+            <option disabled selected>Choose an employee</option>
+          <option *ngFor="let employee of employees" value="{{employee.id}}">{{employee.first_name}} {{employee.last_name}}</option>
+        </select>
+        <select #department class="px-4 py-4 bg-grey-light mb-2 rounded">
+          <option disabled selected>Choose a department</option>
+          <option *ngFor="let department of departments" value="{{department.id}}">{{department.name}}</option>
+        </select>
+        <button class="bg-blue hover:bg-blue-dark text-white uppercase text-lg rounded px-2 py-2 text-semibold" (click)="addTask(description.value, employee.value, department.value)">Add</button>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <div class="flex flex-col px-8 py-8 bg-white shadow-md rounded w-full container">
+        <h2 class="text-black mb-4">Tasks</h2>
+        <div *ngFor="let task of tasks">
+          <app-task [task]="task"></app-task>
+        </div>
+      </div>
+    </div>
+
+</div>

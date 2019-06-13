@@ -1,0 +1,31 @@
+
+<div>
+<div>
+  <h1 class="h1">departments</h1>
+  <ul *ngFor="let department of departments" >
+    <li class="list" id="names" (click)="onSelectDep(department)">
+      <tr><th>{{department.id}}
+      {{department.name}}</th></tr>
+        <input class="update"[(ngModel)]="department.name">
+        
+          <li *ngFor="let employee of getEmployees(department.id)"><tr><td>{{employee.name}}</td></tr></li>
+        
+    </li>
+  </ul>
+</div>
+<area class="create">
+  <label>ID:
+    <input #id placeholder="id" />
+    <button class="buttons" (click)="deleteDepartment(id.value)">delete</button>
+  </label>
+  <label>Name:
+    <input #name placeholder="name" />
+    <button class="buttons" (click)="addDepartment(name.value)">create</button>
+  </label>
+
+<div *ngIf="selectedDepartment">
+  {{selectedDepartment.id}}
+  {{selectedDepartment.name}}
+   <li *ngFor="let employee of getEmployees(selectedDepartment.id)">{{employee.name}}</li>
+</div>
+</div>
